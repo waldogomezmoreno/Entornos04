@@ -62,6 +62,13 @@ public class Main {
         } catch (Exception e) {
                            System.out.print("Fallo…….");
         }
+        
+        try {
+                    System.out.println(" Modificación 2");
+                     cesta.ActualizarBono(15);
+        } catch (Exception e) {
+                           System.out.print("Fallo…….");
+        }
     }
     
 }
